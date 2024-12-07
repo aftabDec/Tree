@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global background color */
+body {
+    background-color: #2e1605;
+    color: white;
+}
+
+/* Profile Background */
+.profile-background {
+    background-color: #3e1b12;
+    /* Deep brown */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* List Item Styles */
+.list-item {
+    background-color: #5b5456;
+    /* Dark muted brown */
+    border: 2px solid #b1a9ae;
+    /* Beige border */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-item:hover {
+    transform: scale(1.05);
+    background-color: #4b3e35;
+    /* Slightly lighter on hover */
+}
