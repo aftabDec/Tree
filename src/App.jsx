@@ -1,4 +1,4 @@
-import Lists from "./lists";
+import Lists from "./lists.jsx";
 import Profile from "./profile";
 
 function App() {
