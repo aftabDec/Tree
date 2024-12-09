@@ -14,6 +14,11 @@ function App() {
       link: "https://discord.com/users/tartaglia_9",
     },
     {
+      image: "/tar.jpg",
+      name: "Portfolio",
+      link: "https://tartaglia-aftab.vercel.app/",
+    },
+    {
       image: "/twitter.png",
       name: "Twitter",
       link: "https://x.com/aftab6th",
